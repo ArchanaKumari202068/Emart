@@ -1,0 +1,129 @@
+.Main_ProductPage {
+    width: 100%;
+    height: 100vh;
+    border: 2px solid green;
+    padding: 0 10%;
+}
+
+.Products_Cards {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+
+}
+.Product_Card{
+    width: 220px;
+    height: 350px;
+    border: 2px solid red;
+}
+
+.Product_img {
+    height: 220px;
+    width: 100%;
+    border: 2px solid blue;
+    background-size: cover;
+    object-fit: contain;
+    position: relative;
+}
+
+.Product_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.rating {
+    width: 100%;
+    height: 2em;
+
+
+}
+
+.Product_Color {
+    width: 100%;
+    height: 2em;
+    border: 2px solid green;
+
+}
+
+.Product_content {
+    display: flex;
+    flex-direction: column;
+    background: #fffafa;
+    gap: 0.2em;
+    padding: 1em;
+
+}
+
+.star_icons {
+    width: 20px;
+    height: 20px;
+}
+
+.heart_icons {
+    width: 22px;
+    height: 22px;
+    z-index: 100;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.Limited_Time_Offer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: flex-start;
+    color: #fffafa;
+    justify-content: center;
+    text-align: justify;
+    background-color: rgba(81, 156, 221, 0.1);
+    padding-left: 5em;
+    
+
+}
+.Limited_Time_Offer p,h4,h2{
+    width: 50%;
+}
+
+.Product_img_1 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background-attachment: fixed;
+    background-image: url("../assest/banner-03.jpg");
+    background-size: cover;
+    background-color: rgba(24, 140, 240, 0.6);
+    margin-top: 40%;
+    
+
+}
+
+
+.SHOP_NOW{
+    height: 3.5em;
+    width: 10em;
+    gap: 1em;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: black;
+    background-color: white;
+
+}
+.Shopping_cart{
+    width: 22px;
+    height: 22px;
+    z-index: 100;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
